@@ -1,0 +1,19 @@
+<template name="FinancialMap">
+	<h1 class="page-title">Estimated Expenses/Income</h1>
+	{{#each recipes}}
+		{{> MenuItem}}
+	{{else}}
+		<h2>Estimated future financial situation.</h2>
+		<h3>Expenses Distribution</h3>
+		{{> PieChart}}
+		<h3>Expenses/Income</h3>
+		{{> LineChart}}
+	{{/each}}
+</template>
+
+<template name="MenuItem">
+	<div class="menu-item">
+		<h3>{{name}}</h3>
+		<p>{{desc}}</p>
+	</div>
+</template>

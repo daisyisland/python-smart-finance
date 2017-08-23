@@ -9,14 +9,14 @@ Recipes.allow({
 	}
 });
 
-Ingredient = new SimpleSchema({
-	name: {
-		type: String 
-	},
-	amount: {
-		type: String
-	}
-});
+// Ingredient = new SimpleSchema({
+// 	name: {
+// 		type: String 
+// 	},
+// 	amount: {
+// 		type: Number
+// 	}
+// });
 
 RecipeSchema = new SimpleSchema({
 	name: {
@@ -27,9 +27,18 @@ RecipeSchema = new SimpleSchema({
 		type: String,
 		label: "Description"
 	},
-	ingredients: {
-		type: [Ingredient]
+	freq: {
+		type: String,
+		label: "Frequency",
+		allowedValues: ['Weekly', 'Fortnightly', 'Monthly']
 	},
+	amount: {
+		type: Number,
+		label: "Amount"
+	},
+	// ingredients: {
+	// 	type: [Ingredient]
+	// },
 	inMenu: {
 		type: Boolean,
 		defaultValue: false,

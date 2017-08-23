@@ -1,11 +1,11 @@
-Template.Menu.onCreated(function(){
+Template.FinancialMap.onCreated(function(){
 	var self = this;
 	self.autorun(function (){
 		self.subscribe('recipes');
 	});
 });
 
-Template.Menu.helpers({
+Template.FinancialMap.helpers({
 	recipes: ()=> {
 		return Recipes.find({inMenu: true});
 	}
