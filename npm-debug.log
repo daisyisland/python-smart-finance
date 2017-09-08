@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Users\\10025\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.1.10\\mt-os.windows.x86_32\\dev_bundle\\bin\\\\node.exe',
+1 verbose cli   'C:\\Users\\10025\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.1.10\\mt-os.windows.x86_32\\dev_bundle\\bin\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'shrinkwrap' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.40
+4 verbose node symlink C:\Users\10025\AppData\Local\.meteor\packages\meteor-tool\1.1.10\mt-os.windows.x86_32\dev_bundle\bin\\node.exe
+5 error Error: Problems were encountered
+5 error Please correct and try again.
+5 error extraneous: child_process@1.0.2 C:\Users\10025\Desktop\smart-finance\smart-finance\node_modules\child_process
+5 error     at shrinkwrap_ (C:\Users\10025\AppData\Local\.meteor\packages\meteor-tool\1.1.10\mt-os.windows.x86_32\dev_bundle\bin\node_modules\npm\lib\shrinkwrap.js:30:15)
+5 error     at C:\Users\10025\AppData\Local\.meteor\packages\meteor-tool\1.1.10\mt-os.windows.x86_32\dev_bundle\bin\node_modules\npm\lib\shrinkwrap.js:24:5
+5 error     at C:\Users\10025\AppData\Local\.meteor\packages\meteor-tool\1.1.10\mt-os.windows.x86_32\dev_bundle\bin\node_modules\npm\lib\ls.js:44:30
+5 error     at C:\Users\10025\AppData\Local\.meteor\packages\meteor-tool\1.1.10\mt-os.windows.x86_32\dev_bundle\bin\node_modules\npm\node_modules\read-installed\read-installed.js:130:5
+5 error     at C:\Users\10025\AppData\Local\.meteor\packages\meteor-tool\1.1.10\mt-os.windows.x86_32\dev_bundle\bin\node_modules\npm\node_modules\read-installed\read-installed.js:258:14
+5 error     at cb (C:\Users\10025\AppData\Local\.meteor\packages\meteor-tool\1.1.10\mt-os.windows.x86_32\dev_bundle\bin\node_modules\npm\node_modules\slide\lib\async-map.js:48:11)
+5 error     at C:\Users\10025\AppData\Local\.meteor\packages\meteor-tool\1.1.10\mt-os.windows.x86_32\dev_bundle\bin\node_modules\npm\node_modules\read-installed\read-installed.js:258:14
+5 error     at asyncMap (C:\Users\10025\AppData\Local\.meteor\packages\meteor-tool\1.1.10\mt-os.windows.x86_32\dev_bundle\bin\node_modules\npm\node_modules\slide\lib\async-map.js:27:18)
+5 error     at next (C:\Users\10025\AppData\Local\.meteor\packages\meteor-tool\1.1.10\mt-os.windows.x86_32\dev_bundle\bin\node_modules\npm\node_modules\read-installed\read-installed.js:215:5)
+5 error     at C:\Users\10025\AppData\Local\.meteor\packages\meteor-tool\1.1.10\mt-os.windows.x86_32\dev_bundle\bin\node_modules\npm\node_modules\read-installed\read-installed.js:167:7
+6 error If you need help, you may report this *entire* log,
+6 error including the npm and node versions, at:
+6 error     <http://github.com/npm/npm/issues>
+7 error System Windows_NT 6.2.9200
+8 error command "C:\\Users\\10025\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.1.10\\mt-os.windows.x86_32\\dev_bundle\\bin\\\\node.exe" "C:\\Users\\10025\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.1.10\\mt-os.windows.x86_32\\dev_bundle\\bin\\node_modules\\npm\\bin\\npm-cli.js" "shrinkwrap"
+9 error cwd C:\Users\10025\Desktop\smart-finance\smart-finance
+10 error node -v v0.10.40
+11 error npm -v 1.4.9
+12 verbose exit [ 1, true ]
